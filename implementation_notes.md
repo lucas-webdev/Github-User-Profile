@@ -1,5 +1,11 @@
 ## Implementation Notes
 
+### Summary
+
+- What I have completed: Github user search, repository listing and sorting, Repository Details page, minimum accessibility and basic error handling display.
+- Trade-offs: Client-side sorting for stars, inline styles in most places and fetch logic inside page components to make implementation simpler and faster in exchange of maintanability, performance and SOLID patterns.
+- What I would improve: Configurable `per_page` param, deal with possible duplication on repository listing, UX/UI improvements all over the pages, responsiveness, accessibility, unit testing and `eslint` and `prettier` for code quality and standardization
+
 ### What I completed
 
 - Github user search with profile display
