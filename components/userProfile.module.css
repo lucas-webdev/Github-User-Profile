@@ -1,0 +1,28 @@
+.userDetailsWrapper {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 24px;
+    flex-direction: column;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.userDetailsRow {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    width: 100%;
+}
+
+.githubLink {
+    text-decoration: none;
+}
+
+.githubLink:hover {
+    text-decoration: underline;
+}
